@@ -45,6 +45,6 @@ for run in range(0, 12, 1):
 	#print H1_snr, L1_snr, network_snr, ratio, max_snr
 
 
-	BF_SNR_array.append(bayesfactor, H1_snr, L1_snr, network_snr, ratio, max_snr)
+	BF_SNR_array(bayesfactor, H1_snr, L1_snr, network_snr, ratio, max_snr)
 
-print BF_SNR_array
+	print BF_SNR_array
